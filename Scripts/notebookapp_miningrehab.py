@@ -26,7 +26,7 @@ import ipywidgets as widgets
 from datacube.storage import masking
 
 # Load utility functions
-from dea_spatialtools import transform_geojson_wgs_to_epsg
+from dea_tools.spatial import transform_geojson_wgs_to_epsg
 
 
 def load_miningrehab_data():

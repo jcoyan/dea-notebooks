@@ -30,9 +30,9 @@ import warnings
 import ipywidgets as widgets
 
 # Load utility functions
-from dea_datahandling import load_ard
-from dea_spatialtools import transform_geojson_wgs_to_epsg
-from dea_bandindices import calculate_indices
+from dea_tools.datahandling import load_ard
+from dea_tools.spatial import transform_geojson_wgs_to_epsg
+from dea_tools.bandindices import calculate_indices
 
 
 def load_crophealth_data():

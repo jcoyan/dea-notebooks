@@ -27,11 +27,10 @@ from datacube.utils.dask import start_local_dask
 from ipyleaflet import basemaps, basemap_to_tiles
 
 # Load utility functions
-sys.path.append('../Scripts')
-from dea_datahandling import load_ard
-from dea_coastaltools import tidal_tag
-from dea_datahandling import mostcommon_crs
-from dea_dask import create_local_dask_cluster
+from dea_tools.datahandling import load_ard
+from dea_tools.coastal import tidal_tag
+from dea_tools.datahandling import mostcommon_crs
+from dea_tools.dask import create_local_dask_cluster
 
 
 def run_filmstrip_app(output_name,
